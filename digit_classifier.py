@@ -9,7 +9,7 @@ print("This is a handwritten digits classifier.")
 
 # setting up classifier
 gamma = float(input("Choose a learning rate: "))
-clf = svm.SVC(gamma=0.001, C=100)
+clf = svm.SVC(gamma=gamma, C=100)
 # gamma = learning rate for gradient descent (0.001)
 # C = regularization parameter 
 
